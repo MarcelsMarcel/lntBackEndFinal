@@ -1,0 +1,130 @@
+/* public/css/style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* Warna latar belakang abu-abu muda */
+    color: #343a40; /* Warna teks gelap */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    max-width: 1200px; /* Batasi lebar konten */
+    margin: 0 auto; /* Pusatkan konten */
+    padding: 20px;
+    background-color: #ffffff; /* Latar belakang putih untuk konten utama */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Efek bayangan lembut */
+    border-radius: 10px; /* Sudut membulat */
+}
+
+h1 {
+    color: #007bff; /* Warna biru untuk judul "No Product Found" */
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Transisi halus untuk hover */
+}
+
+.btn-success {
+    background-color: #28a745; /* Hijau Bootstrap */
+    border-color: #28a745;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Hijau lebih gelap saat hover */
+    border-color: #1e7e34;
+    transform: translateY(-2px); /* Efek naik sedikit saat hover */
+    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.2);
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse; /* Hapus spasi antar border sel */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Bayangan kecil untuk tabel */
+    border-radius: 8px; /* Sudut membulat untuk tabel */
+    overflow: hidden; /* Penting agar border-radius berfungsi pada tabel */
+}
+
+.table thead th {
+    background-color: #007bff; /* Warna header biru */
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody tr {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #f2f2f2; /* Warna latar belakang bergantian untuk baris */
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef; /* Latar belakang abu-abu saat hover */
+}
+
+.table tbody td {
+    padding: 12px 15px;
+    vertical-align: middle; /* Pusatkan konten sel secara vertikal */
+    color: #495057;
+}
+
+.table img {
+    border-radius: 5px; /* Sudut membulat untuk gambar */
+    object-fit: cover; /* Pastikan gambar mengisi area tanpa terdistorsi */
+    border: 1px solid #ddd;
+}
+
+.table .btn {
+    margin-right: 5px; /* Spasi antar tombol dalam sel Action */
+    font-size: 0.85em; /* Ukuran font tombol lebih kecil */
+    padding: 6px 12px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(220, 53, 69, 0.2);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0, 123, 255, 0.2);
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(23, 162, 184, 0.2);
+}
